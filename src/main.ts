@@ -10,7 +10,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <p><button id="case1" type="button">Try</button></p>
       <p>Case 2: Video added to local.item starts working if any other video is added to scene.items:</p>
       <p><button id="case2" type="button">Try</button></p>
-      <p>In both cases, animation never starts from the beginning of the video. to replicate, try the buttons for case1 or case2 again without a page refresh.</p>
+      <p>Case 3: Enable the smoke extension and all animation stops working (which i thought was kinda odd)</p>
+      <p>You need to both enable the extension and turn it on with the checkbox in the top bar, no other config required</p>
+      <br>
+      <p>In all cases, animation never starts from the beginning of the video. to replicate, try the buttons for case1 or case2 again without a page refresh.</p>
       <br>
       <p>Aside from the above bugs, the other main feature that's missing for me is the ability to only play videos once and disable looping.</p>
     </div>
